@@ -1,0 +1,6 @@
+{
+  "name": "TradeX - Global Markets Authentication & Trading Portal",
+  "description": "Professional fintech authentication and trading access for TradeX. Secure sign-in to Indian, European, US, and global financial markets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

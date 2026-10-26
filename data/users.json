@@ -1,0 +1,11 @@
+[
+  {
+    "id": "usr_trader_demo",
+    "name": "Demo Trader",
+    "email": "demo@tradex.com",
+    "passwordHash": "0a6736716138b08f5c70f8ba8ef0ad4d91aa183966dc0e07389bff9be699349a0ff3a3386730c41ec4efe64b1e8f2816d4fda5690aad242d6c5f963019b57082",
+    "salt": "87d7f9e197b540e060be1862bec307f7",
+    "provider": "local",
+    "createdAt": "2026-10-26T05:24:35.878Z"
+  }
+]
