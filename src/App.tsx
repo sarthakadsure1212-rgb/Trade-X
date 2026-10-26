@@ -7,8 +7,9 @@ import { TradeXLogo } from './components/auth/TradeXLogo';
 import { TradeXPlatform } from './components/trading/TradeXPlatform';
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
-import { TrendingUp, ArrowRight, ShieldCheck, Lock } from 'lucide-react';
+import { TrendingUp, ArrowRight, ShieldCheck, Lock, Smartphone } from 'lucide-react';
 import { supabase, isSupabaseConfigured } from './lib/supabase';
+import { PWAInstallButton, PWAOfflineBanner } from './components/pwa/PWAInstallButton';
 
 interface MainAuthLayoutProps {
   initialMode?: 'login' | 'signup' | 'forgot-password';
@@ -252,6 +253,7 @@ function ProtectedTradeRoute({ defaultTab = 'chart' }: { defaultTab?: 'chart' | 
 export default function App() {
   return (
     <BrowserRouter>
+      <PWAOfflineBanner />
       <Routes>
         <Route path="/" element={<MainAuthView initialMode="login" />} />
         <Route path="/login" element={<MainAuthView initialMode="login" />} />

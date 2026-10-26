@@ -18,6 +18,7 @@ import { useTrading } from '../../../context/TradingContext';
 import { GLOBAL_MARKETS, MarketAsset } from '../../../data/globalMarkets';
 import { TradeXLogo } from '../../auth/TradeXLogo';
 import { AuthUser } from '../../auth/AuthCard';
+import { PWAInstallButton } from '../../pwa/PWAInstallButton';
 
 interface HomeScreenProps {
   user?: AuthUser | null;

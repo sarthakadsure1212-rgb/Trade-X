@@ -17,6 +17,7 @@ import {
 import { useCurrency } from '../../../context/CurrencyContext';
 import { useTrading } from '../../../context/TradingContext';
 import { AuthUser } from '../../auth/AuthCard';
+import { PWAInstallButton } from '../../pwa/PWAInstallButton';
 
 interface ProfileScreenProps {
   user?: AuthUser | null;
